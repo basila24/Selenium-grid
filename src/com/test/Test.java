@@ -15,6 +15,8 @@ public class Test {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://extmbasith:Basila@03@czprgtcbpt.efn.ccs.cz/gfnlaunch/");
 		driver.findElement(By.id("MainContent_grdServers_imgContent_0")).click();
+		
+		System.out.println("Passed");
 	}
 
 }
