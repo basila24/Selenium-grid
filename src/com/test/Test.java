@@ -10,7 +10,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Temp\\JavaCABuild\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://extmbasith:Basila@03@czprgtcbpt.efn.ccs.cz/gfnlaunch/");
