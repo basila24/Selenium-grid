@@ -16,7 +16,7 @@ public class Test {
 		driver.get("http://extmbasith:Basila@03@czprgtcbpt.efn.ccs.cz/gfnlaunch/");
 		driver.findElement(By.id("MainContent_grdServers_imgContent_0")).click();
 		
-		System.out.println("Passvcbvcbn");
+		System.out.println("Passvcbvc");
 	}
 
 }
