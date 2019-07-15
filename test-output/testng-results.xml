@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26951" started-at="2019-06-25T10:13:06Z" finished-at="2019-06-25T10:13:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26951" started-at="2019-06-25T10:13:06Z" finished-at="2019-06-25T10:13:32Z">
+      <class name="comtest.Android">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:comtest.Android@7b98f307]" name="setUpSuite" is-config="true" duration-ms="10" started-at="2019-06-25T10:13:06Z" finished-at="2019-06-25T10:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="FAIL" signature="prepareTest()[pri:0, instance:comtest.Android@7b98f307]" name="prepareTest" is-config="true" duration-ms="26903" started-at="2019-06-25T10:13:06Z" finished-at="2019-06-25T10:13:32Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.json.JsonOutput.write(Ljava/lang/Object;)Lorg/openqa/selenium/json/JsonOutput;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.json.JsonOutput.write(Ljava/lang/Object;)Lorg/openqa/selenium/json/JsonOutput;
+at io.appium.java_client.remote.NewAppiumSessionPayload.writeTo(NewAppiumSessionPayload.java:265)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:175)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:209)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at comtest.Android.prepareTest(Android.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: java.io.IOException: Incomplete document
+at com.google.gson.stream.JsonWriter.close(JsonWriter.java:559)
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:39)
+at io.appium.java_client.remote.NewAppiumSessionPayload.writeTo(NewAppiumSessionPayload.java:288)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="SKIP" signature="Test1()[pri:0, instance:comtest.Android@7b98f307]" name="Test1" duration-ms="0" started-at="2019-06-25T10:13:32Z" finished-at="2019-06-25T10:13:32Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.openqa.selenium.json.JsonOutput.write(Ljava/lang/Object;)Lorg/openqa/selenium/json/JsonOutput;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.openqa.selenium.json.JsonOutput.write(Ljava/lang/Object;)Lorg/openqa/selenium/json/JsonOutput;
+at io.appium.java_client.remote.NewAppiumSessionPayload.writeTo(NewAppiumSessionPayload.java:265)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:175)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:209)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at comtest.Android.prepareTest(Android.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: java.io.IOException: Incomplete document
+at com.google.gson.stream.JsonWriter.close(JsonWriter.java:559)
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:39)
+at io.appium.java_client.remote.NewAppiumSessionPayload.writeTo(NewAppiumSessionPayload.java:288)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:comtest.Android@7b98f307]" name="endTest" is-config="true" duration-ms="0" started-at="2019-06-25T10:13:32Z" finished-at="2019-06-25T10:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- comtest.Android -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
