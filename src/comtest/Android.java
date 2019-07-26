@@ -102,7 +102,7 @@ public class Android {
 		try {
 			// TODO Auto-generated method stub
 
-			String email = "badrampalli.roshan@fleetcor.com", authKey = "jm4mjc4mc433w22q2w45s7p5";
+			String email = "", authKey = "jm4mjc4mc433w22q2w45s7p5";
 			String platform = "Android", version = "8.0.0";
 			int duration = 5;
 			String browser = "", deviceName = "Galaxy S8 +";
